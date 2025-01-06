@@ -71,6 +71,7 @@ document.querySelector(".remarks").innerHTML=parseInfo.remarks
 document.querySelector(".percentage").innerHTML=`${parseInfo.percentage}%`
 document.querySelector(".grade").innerHTML=parseInfo.grade
 document.getElementById("alert").style.display="none"
+document.querySelector(".samples").style.display="none"
 
 }
 else{
